@@ -1,0 +1,15 @@
+.menimg {
+	opacity: 0.6;
+	height: 90vh;
+}
+.menimg img {
+	height: 103.3%;
+	width: 100%;
+}
+.heading1 { 
+	font-weight: bold; 
+	color: white;
+	text-align: center; 
+	margin-top: -450px;
+	font-size: 60px;
+}
