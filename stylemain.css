@@ -1,6 +1,6 @@
 .menimg {
 	opacity: 0.8;
-	height: 100vh;
+	height: 97.5vh;
 }
 .menimg img {
 	height: 100vh;
@@ -15,6 +15,7 @@
 }
 .ansaetze {
 	height: 100vh;
+	background-color: #d3d3d3;
 }
 .ueberschriftansaetze {
 	text-align: center;
@@ -24,8 +25,10 @@
 }
 .col-sm img {
 	height: 200px;
-	margin-left: 3rem;
 	margin-bottom: 10px;
+}
+.margleft {
+	margin-left: 3rem;
 }
 .col-sm a {
 	text-align: left;
@@ -39,6 +42,12 @@
 }
 .col-sm .card-body {
 	text-align: center;
+}
+.card {
+	transition: 0.7s;
+}
+.card:hover {
+	box-shadow: 4px 4px 5px grey;
 }
 .ersteransatz{
 	height: 100vh;
