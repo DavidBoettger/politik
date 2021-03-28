@@ -1,9 +1,9 @@
 .menimg {
 	opacity: 0.8;
-	height: 90vh;
+	height: 100vh;
 }
 .menimg img {
-	height: 103.3%;
+	height: 100vh;
 	width: 100%;
 }
 .heading1 { 
@@ -12,4 +12,52 @@
 	text-align: center; 
 	margin-top: -450px;
 	font-size: 60px;
+}
+.ansaetze {
+	height: 100vh;
+}
+.ueberschriftansaetze {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+	margin-top: 20px;
+}
+.col-sm img {
+	height: 200px;
+	margin-left: 3rem;
+	margin-bottom: 10px;
+}
+.col-sm a {
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+.col-sm a:hover {
+	text-decoration: none;
+	color: black;
+}
+.col-sm .card-body {
+	text-align: center;
+}
+.ersteransatz{
+	height: 100vh;
+}
+.zweiteransatz {
+	height: 100vh;
+}
+.dritteransatz {
+	height: 100vh;
+}
+.vierteransatz {
+	height: 100vh;
+}
+.modellvorstellung {
+	height: 100vh;
+}
+.kontroverse {
+	height: 100vh;
+}
+.einbindung {
+	height: 100vh;
 }
