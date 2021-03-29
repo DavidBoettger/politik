@@ -44,7 +44,7 @@
 	text-align: center;
 }
 .card {
-	transition: 0.7s;
+	transition: 0.5s;
 	height: 67%;
 }
 .card:hover {
@@ -55,12 +55,14 @@
 }
 .ersteransatz{
 	height: 100vh;
+	background-color: #d3d3d3;
 }
 .ue2 {
 
 }
 .zweiteransatz {
 	height: 100vh;
+	background-color: #d3d3d3;
 }
 .dritteransatz {
 	height: 100vh;
@@ -70,6 +72,18 @@
 }
 .modellvorstellung {
 	height: 100vh;
+	background-color: #d3d3d3;
+}
+.modelleue {
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+}
+.modelleue img {
+	transition: 0.5s;
+}
+.modelleue img:hover {
+	box-shadow: 4px 4px 5px grey;
 }
 .kontroverse {
 	height: 100vh;
