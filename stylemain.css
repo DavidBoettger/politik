@@ -28,7 +28,7 @@
 	margin-bottom: 10px;
 }
 .margleft {
-	margin-left: 3rem;
+	margin-left: 1.5rem;
 }
 .col-sm a {
 	text-align: left;
@@ -45,12 +45,19 @@
 }
 .card {
 	transition: 0.7s;
+	height: 67%;
 }
 .card:hover {
 	box-shadow: 4px 4px 5px grey;
 }
+.container {
+	display: table;
+}
 .ersteransatz{
 	height: 100vh;
+}
+.ue2 {
+
 }
 .zweiteransatz {
 	height: 100vh;
@@ -69,4 +76,8 @@
 }
 .einbindung {
 	height: 100vh;
+	font-weight: bold;
+	text-align: center;
+	background-color: #d3d3d3;
+	font-size: 20px;
 }
