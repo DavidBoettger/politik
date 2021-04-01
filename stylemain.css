@@ -86,6 +86,13 @@
 	font-size: 45px;
 	opacity: 0.9;
 }
+.zweiteransatz a {
+	color: black;
+}
+.zweiteransatz a:hover {
+	color: black;
+
+}
 .dritteransatz {
 	height: 100vh;
 	background-color: #d3d3d3;
@@ -100,7 +107,7 @@
 }
 .ue4ue1 {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 23px;
 	margin-left: 30px;
 	opacity: 0.7;
 }
