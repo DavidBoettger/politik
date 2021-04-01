@@ -57,18 +57,58 @@
 	height: 100vh;
 	background-color: #d3d3d3;
 }
+.ersteransatzvorstellung {
+	text-align: center;
+}
+.ersteransatzvorstellung img {
+	transition: 0.5s;
+}
+.ersteransatzvorstellung img:hover {
+	box-shadow: 6px 6px 7px grey;
+}
 .ue2 {
-
+	text-align: center;
+	font-weight: bolder;
+	font-size: 45px;
 }
 .zweiteransatz {
 	height: 100vh;
 	background-color: #d3d3d3;
 }
+.zweiteransatz .row {
+	margin-left: -105px;
+}
+.ue3 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 45px;
+}
 .dritteransatz {
 	height: 100vh;
+	background-color: #d3d3d3;
+}
+.dritteransatz .row {
+	margin-left: -105px;
+}
+.ue4 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 45px;
+}
+.ue4ue1 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 30px;
+	opacity: 0.7;
 }
 .vierteransatz {
 	height: 100vh;
+	background-color: #d3d3d3;
+}
+.ue5 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 45px;
 }
 .modellvorstellung {
 	height: 100vh;
