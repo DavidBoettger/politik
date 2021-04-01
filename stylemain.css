@@ -22,6 +22,7 @@
 	font-weight: bolder;
 	font-size: 50px;
 	margin-top: 20px;
+	opacity: 0.9;
 }
 .col-sm img {
 	height: 200px;
@@ -70,6 +71,7 @@
 	text-align: center;
 	font-weight: bolder;
 	font-size: 45px;
+	opacity: 0.9;
 }
 .zweiteransatz {
 	height: 100vh;
@@ -82,6 +84,7 @@
 	text-align: center;
 	font-weight: bolder;
 	font-size: 45px;
+	opacity: 0.9;
 }
 .dritteransatz {
 	height: 100vh;
@@ -109,6 +112,7 @@
 	text-align: center;
 	font-weight: bolder;
 	font-size: 45px;
+	opacity: 0.9;
 }
 .modellvorstellung {
 	height: 100vh;
