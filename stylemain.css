@@ -1,3 +1,6 @@
+hr {
+	opacity: 1;
+}
 .menimg {
 	opacity: 0.8;
 	height: 97.5vh;
@@ -111,7 +114,7 @@
 }
 .linkzumodell {
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 5px;
 }
 .ue4 {
 	text-align: center;
