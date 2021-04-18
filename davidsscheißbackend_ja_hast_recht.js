@@ -362,8 +362,37 @@ function submit() {
     //finanzen = a_finanzen
 
     // Verlinkung nach gewichteten Kategorien
+    if (werte <= 36 & werte >= 34) {
+        window.location.href = "milieuliberale.html";
+    }
 
+    if (werte <= 33 & werte >= 31) {
+        window.location.href = "milieuperformer.html";
+    }
 
+    if (werte <= 30 & werte >= 28) {
+        window.location.href = "milieuexpeditive.html";
+    }
+
+    if (werte <=27 & werte >= 25) {
+        window.location.href = "milieusozial.html";
+    }
+
+    if (werte <=24 & werte >= 15) {
+        window.location.href = "milieumitte.html";
+    }
+
+    if (werte <=14 & werte >= 10) {
+        window.location.href = "milieuhedonisten.html";
+    }
+
+    if (werte <=9 & werte >= 5) {
+        window.location.href = "milieutraditionelle.html";
+    }
+
+    if (werte <=0 & werte >= 0) {
+        window.location.href = "milieuprekare.html";
+    }
 
     // log
     console.log(werte);
