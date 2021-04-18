@@ -185,6 +185,11 @@ function submit() {
     q_kinder[2] = document.getElementById("kinder2").checked;
     q_kinder[3] = document.getElementById("kinder3").checked;
 
+    q_gesundheit[0] = document.getElementById("gesundheit0").checked;
+    q_gesundheit[1] = document.getElementById("gesundheit1").checked;
+    q_gesundheit[2] = document.getElementById("gesundheit2").checked;
+    q_gesundheit[3] = document.getElementById("gesundheit3").checked;
+
     // get answers
     for (i = 0; i < q_ausgeglichenheit.length; i++) {
         if (q_ausgeglichenheit[i] == true) {
@@ -306,17 +311,23 @@ function submit() {
         } 
     }
 
+    for (i = 0; i < q_gesundheit.length; i++) {
+        if (q_gesundheit[i] == true) {
+            a_gesundheit = i;
+        } 
+    }
+
     // Answerblöcke summieren
     var werte = 0;
-    var arbeit_einstellung = 0;
-    var arbeit_pensum = 0;
-    var freizeit = 0;
-    var konsum = 0;
-    var familie = 0;
-    var zukunft = 0;
-    var politik = 0;
-    var ziele = 0;
-    var finanzen = 0;
+    //var arbeit_einstellung = 0;
+    //var arbeit_pensum = 0;
+    //var freizeit = 0;
+    //var konsum = 0;
+    //var familie = 0;
+    //var zukunft = 0;
+    //var politik = 0;
+    //var ziele = 0;
+    //var finanzen = 0;
 
     // werte (36) (je mehr, desto positiver)
     werte = a_ausgeglichenheit + a_selbstvertrauen + a_disziplin + a_humor + a_vertrauen + a_unbestechlichkeit + a_akzeptanz + a_anerkennung + a_teamgeist + a_anstand + a_freundlichkeit + a_rücksicht
@@ -345,7 +356,7 @@ function submit() {
     politik = a_politik
 
     // ziele 
-    ziele = a_kinder
+    //ziele = a_kinder + a_gesundheit
 
     // finanzen 
     //finanzen = a_finanzen
@@ -355,8 +366,6 @@ function submit() {
 
 
     // log
-    console.log(a_kinder);
-    
-    //console.log(werte);
+    console.log(werte);
 
 }
