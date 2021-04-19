@@ -353,7 +353,37 @@ function submit() {
     zukunft = a_zukunft
 
     // politik 
-    politik = a_politik
+    var politik = a_politik;
+    var politik_faktor = 1;
+
+    if (politik == 0) {
+        politik_faktor = 0.8
+    }
+
+    if (politik == 6) {
+        politik_faktor = 0.8
+    }
+
+    if (politik == 2) {
+        politik_faktor = 0.7
+    }
+
+    if (politik == 1) {
+        politik_faktor = 1
+    }
+
+    if (politik == 3) {
+        politik_faktor = 1.3
+    }
+
+    if (politik == 4) {
+        politik_faktor = 1.2
+    }
+
+    if (politik == 5) {
+        politik_faktor = 1.1
+    }
+
 
     // ziele 
     //ziele = a_kinder + a_gesundheit
@@ -361,40 +391,52 @@ function submit() {
     // finanzen 
     //finanzen = a_finanzen
 
+    var score = 0;
+    
+
     // Verlinkung nach gewichteten Kategorien
-    if (werte <= 36 & werte >= 34) {
+
+    score = werte * politik_faktor
+
+    if (score <= 47 & score >= 43) {
         window.location.href = "milieuliberale.html";
     }
 
-    if (werte <= 33 & werte >= 31) {
+    if (score < 43 & score >= 38) {
         window.location.href = "milieuperformer.html";
     }
 
-    if (werte <= 30 & werte >= 28) {
+    if (score < 38 & score >= 32) {
         window.location.href = "milieuexpeditive.html";
     }
 
-    if (werte <=27 & werte >= 25) {
+    if (score < 32 & score >= 26) {
         window.location.href = "milieusozial.html";
     }
 
-    if (werte <=24 & werte >= 15) {
+    if (score < 26 & score >= 19) {
         window.location.href = "milieumitte.html";
     }
 
-    if (werte <=14 & werte >= 10) {
+    if (score < 19 & score >= 13) {
         window.location.href = "milieuhedonisten.html";
     }
 
-    if (werte <=9 & werte >= 5) {
+    if (score < 13 & score >= 8) {
+        window.location.href = "milieukonservative.html";
+    }
+
+    if (score < 8 & score >= 5) {
         window.location.href = "milieutraditionelle.html";
     }
 
-    if (werte <=0 & werte >= 0) {
+    if (score < 5 & score >= 0) {
         window.location.href = "milieuprekare.html";
     }
 
     // log
+    console.log(politik);
+    console.log(politik_faktor);
     console.log(werte);
 
 }
